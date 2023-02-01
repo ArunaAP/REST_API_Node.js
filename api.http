@@ -1,0 +1,14 @@
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/blogs
+
+
+POST http://localhost:3000/blogs 
+content-type: application/json
+
+{
+    "title": "My first post",
+    "content": "This is my first post"
+}
